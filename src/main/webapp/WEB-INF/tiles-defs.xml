@@ -32,6 +32,12 @@
 		<put-attribute name="title" value="index" />
 		<put-attribute name="body"	value="/WEB-INF/jsp/index.jsp" />
 	</definition>
+	
+	<definition name="home" extends="baseLayout">
+		<put-attribute name="title" value="dashboard" />
+		<put-attribute name="body"	value="/WEB-INF/jsp/home.jsp" />
+	</definition>
+	
 
 	
 	

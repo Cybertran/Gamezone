@@ -38,7 +38,7 @@
 	<!--mongo db connection  -->
 	<!--  -->
 	<mongo:mongo host="localhost" port="27017"/>
-	<mongo:db-factory dbname="smsocean" />
+	<mongo:db-factory dbname="gamezone" />
 	<mongo:mongo id="replicaSetMongo" replica-set="127.0.0.1:27017,localhost:27017"/>
 	<mongo:mongo id="mongo"/>
 	

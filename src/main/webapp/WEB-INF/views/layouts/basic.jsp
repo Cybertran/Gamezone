@@ -20,17 +20,18 @@
 	</script>
 </c:forEach>
 <c:forEach items="${cssLinks}" var="item"> 
-	<link href="<c:url value='${item}'/>" rel="stylesheet">
+	<link href="<c:url value='${item}'/>" rel="stylesheet" media="screen">
 </c:forEach>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
 <tiles:getAsString name="title" /></title> 
-</head>
-<body>
-	<div class="container">
 		<tiles:insertAttribute name="header" />
+</head>
+<body class="well">
+<div class="container bodyLayout" style="margin-top: 50px;">
+<tiles:insertAttribute name="body" />
+</div>
 	
-		<tiles:insertAttribute name="body" />
-		<tiles:insertAttribute name="footer" />
-	</div>
 </body>
+<tiles:insertAttribute name="footer" />
 </html>

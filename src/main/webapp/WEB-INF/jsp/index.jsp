@@ -32,6 +32,8 @@
 
 </form:form>
 </div>
+<div class="offset3"><a class=" btn btn-default col-lg-4"  href='<c:url value="/dashboard"/>'>Home</a></div>
+
 <h3>Following user inserted</h3>
 <c:forEach items="${userList}" var="user">
 <ul>

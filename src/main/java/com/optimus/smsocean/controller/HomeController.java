@@ -41,6 +41,11 @@ public class HomeController {
 		
 		return "index";
 	}
+	
+	@RequestMapping(value="/dashboard")
+	public String  getHome(Model model) {
+		return "home";
+	}
 
 	
 }
